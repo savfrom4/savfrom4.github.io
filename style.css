@@ -1,0 +1,32 @@
+@font-face 
+{
+    font-family: terminal-font;
+    src: url(UbuntuMono-R.ttf);
+}
+
+body
+{ 
+    background-color: rgb(4, 0, 14); 
+    color: white;
+    font-family: "terminal-font";
+    font-weight: lighter;
+    font-size: large;
+}
+
+a
+{
+    color: rgb(48, 52, 255);
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.input
+{
+    background-color: rgb(4, 0, 14); 
+    color: white;
+    font-family: "terminal-font";
+    font-size: large;
+    outline-width: 0;
+    border: none;
+}
